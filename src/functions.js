@@ -38,7 +38,7 @@ export async function searchImages(event) {
     if (data.totalHits > 40) {
       loadMoreButton.style.display = 'block';
     }
-    // searchInput.value = '';
+    searchInput.value = '';
   } catch (error) {
     Notiflix.Notify.failure('Something went wrong. Please try again later.');
   }
