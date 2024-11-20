@@ -2,11 +2,12 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
 }
+
 .search-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10px; 
+  gap: 10px;
   margin-bottom: 20px;
 }
 
@@ -21,7 +22,7 @@ body {
 }
 
 .search-form input:focus {
-  border-color: #007bff; 
+  border-color: #007bff;
 }
 
 .search-form button {
@@ -53,7 +54,8 @@ body {
 
 .photo-card img {
   width: 100%;
-  display: block;
+  height: 200px;
+  object-fit: cover;
 }
 
 .info {
@@ -70,7 +72,7 @@ body {
 }
 
 .load-more {
-  display: block;
+  display: none;
   margin: 20px auto;
   padding: 10px 20px;
   background-color: #007bff;
