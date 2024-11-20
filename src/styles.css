@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .search-form {
@@ -45,6 +46,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 20px;
 }
+
 .photo-card {
   border: 1px solid #ddd;
   border-radius: 5px;
